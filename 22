@@ -1,0 +1,16 @@
+22. Даны вещественные числа A, B,C. Определить, выполняются ли неравенства A < B, B > C, и какое именно неравенство выполняется.
+
+import random;
+A=random.randint(-100,100);
+alert(«A= » + str(A));
+B=random.randint(-100,100);
+alert(«B= » + str(B));
+C=random.randint(-100,100);
+alert(«C= » + str(C) + «\n»);
+alert("A < B  B > C""\n");
+if AC:
+alert(«Первое неравенство ложно»);
+if A>B and B>C:
+alert(«Второе неравенство правильное»);
+elif A<B or B<C:
+alert("Второе неравенство ложно");
