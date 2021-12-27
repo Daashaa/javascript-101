@@ -1,0 +1,13 @@
+25. Дано вещественное число A. Вычислить f(A), если f(x) = x^2 + 4x +5, при x≤2; в противном случае f(x) = 1/(x^2 + 4x + 5)
+
+import random;
+import math;
+A=random.randint(-10,10);
+alert(«A= » + str(A));
+x=A;
+if x <= 2:
+f= x**2 + 4*x + 5;
+alert("x <= 2");
+alert("f(A)= x**2 + 4*x + 5 = " + str(f));
+elif not x<=2:
+print("f(A)= 1/(x**2 + 4*x + 5) = " + str(f));
